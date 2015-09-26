@@ -28,3 +28,12 @@ Below can be changed after installation, edit the config.sh file at the installa
 * $IMAGE_PATH
 * $IMAGE_QUALITY (1 to 100)
 
+### Uninstall
+
+* Edit crontab file and remove the line with $INSTALL_PATH/minute.sh
+
+    `crontab -e`
+
+* (optional) Remove installation directory and its content
+* (optional) Remove $LOG_PATH/run.log file
+
